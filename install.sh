@@ -56,6 +56,9 @@ done
 sudo systemctl enable NetworkManager
 sudo systemctl start NetworkManager
 
+# Activer le service audio
+sudo systemctl enable --now pipewire pipewire-pulse
+
 # Nettoyer les paquets mis en cache
 sudo pacman -Sc
 
