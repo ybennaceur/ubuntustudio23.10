@@ -15,3 +15,5 @@ flatpak install com.discordapp.Discord
 flatpak install com.visualstudio.code
 flatpak install org.godotengine.Godot
 flatpak install com.spotify.Client
+
+sudo apt autoremove
