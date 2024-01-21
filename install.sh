@@ -9,7 +9,7 @@ echo "deb [signed-by=/usr/share/keyrings/brave-browser-archive-keyring.gpg] http
 sudo add-apt-repository ppa:flatpak/stable
 sudo apt update
 flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
-sudo apt install brave-browser flatpak plasma-discover-backend-flatpak strawberry brave-browser picard timeshift qbittorrent mpv ttf-mscorefonts-installer
+sudo apt install brave-browser flatpak plasma-discover-backend-flatpak strawberry brave-browser picard timeshift qbittorrent mpv ttf-mscorefonts-installer tiled
 
 flatpak install com.discordapp.Discord
 flatpak install com.visualstudio.code
